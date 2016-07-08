@@ -1,0 +1,22 @@
+{
+  "name": "tap-line-parsers",
+  "version": "0.0.0",
+  "description": "Functions for each type of TAP line that parse lines into objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m59peacemaker/node-tap-line-parsers"
+  },
+  "author": {
+    "name": "Johnny Hauser",
+    "email": "johnnyhauser@gmail.com"
+  },
+  "license": "VOL",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}

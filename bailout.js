@@ -1,0 +1,10 @@
+const bailout = line => {
+  const matches = line.match(/^Bail out! (\w+)/)
+  const result = {reason: ''}
+  if (matches) {
+    result.reason = matches[1]
+  }
+  return result
+}
+
+module.exports = bailout
