@@ -1,7 +1,13 @@
 {
   "name": "tap-line-parsers",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Functions for each type of TAP line that parse lines into objects.",
+  "keywords": [
+    "tap",
+    "line",
+    "parsers",
+    "object"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "tape test/*.js"
