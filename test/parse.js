@@ -66,6 +66,14 @@ const data = {
     [
       'ok foo # TODO the things',
       {ok: true, description: 'foo', todo: 'the things'}
+    ],
+    [
+      'ok (unnamed assert)',
+      {ok: true, description: '(unnamed assert)'}
+    ],
+    [
+      'not ok 28 (unnamed assert)',
+      {ok: false, point: 28, description: '(unnamed assert)'}
     ]
   ],
   bailout: [
@@ -76,7 +84,11 @@ const data = {
     [
       'Bail out! hey',
       {reason: 'hey'}
-    ]
+    ],
+    [
+      'Bail out! Howdy ho! Sup.',
+      {reason: 'Howdy ho! Sup.'}
+    ],
   ],
   diagnostic: [
     [

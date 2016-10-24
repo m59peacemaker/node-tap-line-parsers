@@ -1,5 +1,5 @@
 const bailout = line => {
-  const matches = line.match(/^Bail out! (\w+)/)
+  const matches = line.match(/^Bail out! (.+)/)
   const result = {reason: ''}
   if (matches) {
     result.reason = matches[1]
