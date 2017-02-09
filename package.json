@@ -1,6 +1,6 @@
 {
   "name": "tap-line-parsers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Functions for each type of TAP line that parse lines into objects.",
   "keywords": [
     "tap",
@@ -20,7 +20,7 @@
     "name": "Johnny Hauser",
     "email": "johnnyhauser@gmail.com"
   },
-  "license": "VOL",
+  "license": "CC0-1.0",
   "dependencies": {},
   "devDependencies": {
     "tape": "^4.6.0"
